@@ -1,8 +1,8 @@
 {
-  "name": "edentic-nuxt-app",
+  "name": "jonas-hammer-nuxt-app",
   "version": "1.0.0",
-  "description": "Edentic Nuxt App",
-  "author": "Edentic ApS",
+  "description": "Jonas Hammer Portfolio",
+  "author": "Mathias Hammer",
   "private": true,
   "scripts": {
     "dev": "nuxt --hostname '0.0.0.0' --port 3000",
