@@ -161,6 +161,10 @@ p{
   padding:2em;
 }
 
+.social-icons{
+  height:auto;
+}
+
 .social-icons img{
   height:200px;
   width:auto;  
