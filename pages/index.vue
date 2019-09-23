@@ -48,10 +48,10 @@
         </p>
         <div class="social-icons">
           <a href="https://facebook.com/jonasmahavishnu" target="_blank">
-            <img src="../assets/img/f_logo_RGB-Blue_250.png" id="fb-logo"/>
+            <img src="../assets/img/fb-logo-250.png" id="fb-logo"/>
           </a>
           <a href="https://instagram.com/jonasmahavishnu" target="_blank">
-            <img src="../assets/img/IG_Glyph_Fill.png"/>
+            <img src="../assets/img/ig-glyph.png"/>
           </a>
         </div>
       </section>
