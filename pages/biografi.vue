@@ -20,6 +20,33 @@
       </section>
       <section>
         <h2 class="subtitle">
+          Personlige milepæle
+        </h2>
+        <div>
+          <ul class="tekst">
+              <li>
+-       Heartland Festival 2019
+</li>
+<li>
+-       SPOT Festival 2019
+</li>
+<li>
+-       Arctic Sounds 2019 - Med Martin Zinck (GL) og Torleik Mortensen (FO)
+</li>
+<li>
+-       Tinderbox 2018
+</li>
+<li>
+-       Persona EP 2018 - Første soloudgivelse
+</li>
+<li>
+-       Kløften Festival 2017
+</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 class="subtitle">
           CV
         </h2>
         <div>

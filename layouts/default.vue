@@ -86,8 +86,13 @@ nav ul {
 nav a {
   padding: 0.4em;
   margin: 0 0.4em;
+  font-size:1.3em;
   color: #35495e;
   font-family: "Permanent Marker";
+}
+
+nav a:hover {
+  color: #5d6d7e;
 }
 
 footer{
