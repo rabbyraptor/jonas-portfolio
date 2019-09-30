@@ -1,13 +1,36 @@
 <template>
-  <div>
-    <nuxt />
+  <div class="container">
+    <div class="wrapper">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <nuxt-link to="/">Hjem</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="biografi">Biografi &#38; CV</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/#some">SoMe</nuxt-link>
+            </li>
+            <li>
+              <nuxt-link to="/#kontakt">Kontakt</nuxt-link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <nuxt />
+      <footer>
+          © Jonas Hammer – All rights reserved
+      </footer>
+    </div>
   </div>
 </template>
 
 <style>
 html {
-  font-family: 'Permanent Marker', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Permanent Marker", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -24,32 +47,51 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #203a43; /* fallback for old browsers */
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100vh;
+  background: #fff;
 }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
+header {
+  width:100%;
+  max-width:1000px;
+  position: fixed;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.3);
+}
+nav {
+  margin:auto;
+  padding: 0.5em 0;
+  background-color: #fff;
+}
+
+nav ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  padding: 0;
+}
+
+nav a {
+  padding: 0.4em;
+  margin: 0 0.4em;
   color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
+  font-family: "Permanent Marker";
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+footer{
+  color:#393939;
+  padding:3em 0 2em 0;
 }
 </style>
