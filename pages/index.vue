@@ -35,8 +35,10 @@
           Kontakt
         </h2>
         <p>
-          Jonas Hammer<br/>
-          <a href="tel:+4550539720">+45 50 53 97 20</a>
+          Telefon:<br/>
+          <a class="telefon" href="tel:+4550539720">+45 50 53 97 20</a><br/><br/>
+          Mail:<br/>
+          <a class="email" href="mailto:jonascaster@gmail.com">jonascaster@gmail.com</a>
         </p>
       </section>
     </div>
